@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+    <div style="margin-top:10px">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1>Cows are so cute</h1>
+                </div>
+                <div class="col-2">
+
+                </div>
+                <div class="col-4">
+                    Check-in
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="{{ url_for('upload_api.video_feed') }}">
+                </div>
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <!-- <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Name:</h5>
+                            <p class="card-text">Time: </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
