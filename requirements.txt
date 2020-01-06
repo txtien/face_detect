@@ -1,0 +1,11 @@
+pip install cmake
+pip install dlib
+pip install face_recognition
+pip install mtcnn
+
+https://www.learnopencv.com/install-dlib-on-windows/
+
+shape_predictor_68_face_landmarks.dat
+face_keras.h5
+2 file trên tím trên google download được
+
